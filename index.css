@@ -11,8 +11,8 @@ body {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	-ms-transform: translate(-35%, -50%);
-	transform: translate(-35%, -50%);
+	-ms-transform: translate(-35%, -45%);
+	transform: translate(-35%, -45%);
 }
 
 .title {
@@ -69,6 +69,14 @@ body {
 .link {
 	color: rgb(52, 93, 230);
 	text-decoration-line: underline;
+	cursor: pointer;
+}
+
+svg {
+	margin-top: 1.5rem;
+	width: 7.5rem;
+	height: 3rem;
+	margin-right: 0rem;
 	cursor: pointer;
 }
 
